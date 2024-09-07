@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid rgb(117, 175, 58);
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    line-height: 25px;
+}
+form {
+    margin-top: 20px;
+}
+
+.submit{
+    background-color: rgb(247, 223, 162);
+    padding: 5px;
+    font-weight: bold;
+}
+.submit:hover{
+    cursor: pointer;
+}
+#number{
+    padding: 5px;
+}
